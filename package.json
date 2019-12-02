@@ -1,0 +1,34 @@
+{
+  "name": "reason-react-native",
+  "version": "0.61.0",
+  "peerDependencies": {
+    "react-native": "^0.61.0",
+    "reason-react": "^0.7.0"
+  },
+  "repository": "https://github.com/jfrolich/bs-react-native-navigation.git",
+  "license": "MIT",
+  "keywords": [
+    "react-native-navigation",
+    "reason",
+    "reasonml",
+    "bucklescript",
+    "react-native"
+  ],
+  "files": [
+    "*",
+    "!.DS_Store",
+    "!**/*.bs.js",
+    "!.merlin",
+    "!lib/bs",
+    "!lib/ocaml"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "bs-platform": "7.0.0-dev.1",
+    "react-native-navigation": "3.7.0",
+    "reason-react": "^0.7.0"
+  },
+  "dependencies": {
+    "reason-react-native": "^0.61.0"
+  }
+}
